@@ -5,8 +5,8 @@ import './styles.scss';
 const Welcome = () => (
   <div className="welcome-container">
     <div className="welcome-image-container"></div> 
-    <div className="welcome-text"></div>
-    <div className="welcome-post"></div>
+    <div className="welcome-text"> hello</div>
+    <div className="welcome-post"> dev </div>
   </div>
 );
 
