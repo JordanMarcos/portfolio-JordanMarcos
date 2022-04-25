@@ -23,8 +23,8 @@ function App() {
     </Router>
     
       <Welcome/>
-      {/*<WhatIDo/>
-      <WhoAmI/>
+      <WhatIDo/>
+      {/*<WhoAmI/>
       <MyProjects/>
       <Footer/>
       <NotFound/> */}
