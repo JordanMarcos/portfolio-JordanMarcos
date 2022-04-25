@@ -1,9 +1,11 @@
 // == Import styles
 import './styles.scss';
+import { Button } from 'semantic-ui-react'
 
 // == Composant
 const WhoAmI = () => (
   <div className="whoami-container">
+    <div className="whoami-container-items">
     <div className="whoami-title-container"> 
       <h2 className="whoami-title"> Qui je suis </h2>
     </div>
@@ -21,10 +23,11 @@ const WhoAmI = () => (
       </p>
     </div>
 
-    <div className="whoami-button-container">
-      <button className="whoami-button"> Télécharger mon CV</button>
+    <div className="whoami-button-container">  
+        <Button basic inverted ><a className="button" href="https://docdro.id/tjWHTyv" target="_blank">Télécharger mon CV</a></Button>
     </div>
 
+    </div>
   </div>
 );
 
