@@ -13,7 +13,7 @@ function Header() {
 
   return (
     <div className="header-container">
-    <h1 className="header-name"> <a href="https://www.linkedin.com/in/jordan-marcos/" target="_blank" title="Linkedin"> <span className="header-name-underline" >Jordan</span>  Marcos </a> </h1>
+    <h1 className="header-name"> <a className="header-name" href="https://www.linkedin.com/in/jordan-marcos/" target="_blank" title="Linkedin"> <span className="header-name-underline" >Jordan</span>  Marcos </a> </h1>
     
     <div className="header-container-menu">  
       <Link to="#" className="menu-bars">
@@ -39,13 +39,13 @@ function Header() {
 
         <li className='nav-text'> 
           <Link to="#">
-            <span> Qui je suis  </span>
+            <span> Ce que je fais  </span>
           </Link>
         </li>
 
         <li className='nav-text'> 
           <Link to="#">
-            <span> Mes compétences  </span>
+            <span> Qui je suis </span>
           </Link>
         </li>
 
