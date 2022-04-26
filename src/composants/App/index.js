@@ -27,8 +27,8 @@ function App() {
       <WhatIDo/>
       <WhoAmI/>
       <MyProjects/>
-      {/*<Footer/>
-      <NotFound/> */}
+      <Footer/>
+      {/* <NotFound/> */}
    </>
   )
 }

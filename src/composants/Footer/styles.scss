@@ -1,0 +1,64 @@
+.footer-container{
+  background-color: black;
+  border: solid black 1px;
+  height: 6rem;
+}
+
+.footer-mail-container{
+  // border:blue 2px solid;
+  text-align: center;
+  margin-top: 0.6rem;
+}
+
+.footer-mail{
+  color: #A1A1A1;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer-icons-container{
+  // border:burlywood 1px solid;
+  display: flex;
+  justify-content: center;
+  margin-top: 0.6rem;
+  height: 2.3rem;
+  gap: 2rem;
+}
+
+
+.github{
+  color: #A1A1A1;
+  :hover{
+    color: white;
+  }
+}
+
+.linkedin{
+  size:1.8rem;
+  color: #A1A1A1;
+  :hover{
+    color: white;
+  }
+}
+
+.download{
+  size:1.8rem;
+  color: #A1A1A1;
+  :hover{
+    color: white;
+  }
+}
+
+.github-icon{
+  // border: red 1px solid;
+  padding-top: 0.3rem;
+}
+
+.linkedin-icon{
+  // border: red 1px solid;
+  padding-top: 0.3rem;
+}
+
+.download-icon{
+  // border: red 1px solid;
+  padding-top: 0.3rem;
+}
