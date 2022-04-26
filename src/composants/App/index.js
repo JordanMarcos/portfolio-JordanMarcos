@@ -3,7 +3,7 @@ import './styles.scss';
 import 'semantic-ui-css/semantic.min.css'
 
 // == Import React
-import React from 'react';
+import React, {useState} from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 // == Import composants
@@ -26,8 +26,8 @@ function App() {
       <Welcome/>
       <WhatIDo/>
       <WhoAmI/>
-      {/*<MyProjects/>
-      <Footer/>
+      <MyProjects/>
+      {/*<Footer/>
       <NotFound/> */}
    </>
   )

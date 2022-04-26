@@ -1,0 +1,49 @@
+.myprojects-container{
+  background-color: #ebebeb;
+  border: #ebebeb solid 1px;
+  height: 35rem;
+}
+
+.myprojects-container-items{
+  // border: aqua solid 2px;
+  margin: auto;
+  margin-top: 2rem;
+  width: 90rem;
+  height: 36rem;
+}
+
+// .myprojects-container-title{
+  // border: brown solid 2px;
+// }
+
+.myprojects-title{
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #565656;
+  font-size: 2rem;
+  // border:yellow solid 2px;
+}
+
+.myprojects-container-slider{
+  // border:green solid 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 30rem;
+  margin-top: 3rem;
+}
+
+.carousel-container{
+  // border:red 5px solid;
+  width: 45rem;
+  height: 24rem;
+  position: relative;
+}
+
+.control-arrow {
+  height: 100%;
+  width: 4rem;
+}
+
