@@ -40,6 +40,7 @@
   width: 45rem;
   height: 24rem;
   position: relative;
+  cursor: pointer;
 }
 
 .control-arrow {
@@ -47,3 +48,26 @@
   width: 4rem;
 }
 
+#lightbox{
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0, 0.8);
+  display: none;
+}
+
+#lightbox.active{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+  padding: 4px;
+  background: black;
+  border: 2px solid white;
+}
