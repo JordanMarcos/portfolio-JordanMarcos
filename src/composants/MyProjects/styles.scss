@@ -26,13 +26,26 @@
   // border:yellow solid 2px;
 }
 
+// ! LE CSS A APPLIQUER QUAND CAROUSEL
+// .myprojects-container-slider{
+//   // border:green solid 2px;
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: center;
+//   height: 24rem;
+//   margin-top: 3rem;
+//   border: saddlebrown 3px solid;
+// }
+
+// ! LE CSS A APPLIQUER QUAND NO CAROUSEL
 .myprojects-container-slider{
   // border:green solid 2px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  height: 30rem;
-  margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 24rem;
+    // border: saddlebrown 3px solid;
 }
 
 .carousel-container{
@@ -121,3 +134,70 @@ font-weight: bold;
   font-size: 1rem;
   margin: 1rem;
 }
+
+// ! POUR QUAND NO CAROUSEL
+.container-no-projects{
+border-radius: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+background: linear-gradient(135deg, rgba(126, 126, 126, 0.1), rgba(68, 68, 68, 0.384));
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+box-shadow:-3px 5px 26px 13px rgba(79,79,79,0.20);
+border: rgba(243, 243, 243, 0.459) 1px solid ;
+}
+
+// ! POUR QUAND NO CAROUSEL
+.myprojects-no-projects-text{
+  font-size: 1.8rem;
+  padding: 2rem;
+  font-weight: 500;
+  font-family: 'Mulish', sans-serif;
+  color: #565656;
+}
+
+// ! POUR QUAND NO CAROUSEL
+.loader-container{
+  // border:red solid 2px;
+  width: 15rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 1s ease-in-out;
+}
+
+
+// ! POUR QUAND NO CAROUSEL
+.dot{
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #18181881;
+  margin: 0 8px;
+  animation: loader infinite 0.3s alternate;
+}
+
+// ! POUR QUAND NO CAROUSEL
+.d1{
+  animation-delay: 0.11s;
+}
+
+// ! POUR QUAND NO CAROUSEL
+.d2{
+  animation-delay: 0.06s;
+}
+
+// ! POUR QUAND NO CAROUSEL
+.d3{
+  animation-delay: 0.01s;
+}
+
+// ! POUR QUAND NO CAROUSEL
+@keyframes loader {
+  100%{
+    transform: translateY(-30px);
+  }
+}
+

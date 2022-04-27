@@ -66,7 +66,22 @@ const MyProjects = () => (
       </div>
 
       <div className="myprojects-container-slider">
-        <Carousel 
+
+        {/* Text + loader informant que mes projets sont en cours de développement */}
+      <div className="container-no-projects">
+        <div>
+          <p className="myprojects-no-projects-text">En cours de développement</p>
+        </div>
+    
+        <div className="loader-container">
+          <div className="dot d1"></div>
+          <div className="dot d2"></div>
+          <div className="dot d3"></div>
+        </div>
+      </div> 
+
+        {/* si tu veux re afficher le carousel image, décommente ce qu'il y a en bas */}
+        {/* <Carousel 
         showThumbs={false} 
         showStatus={false} 
         className="carousel-container">
@@ -174,7 +189,7 @@ const MyProjects = () => (
              </div>
 
           </div>
-        </Carousel>
+        </Carousel> */}
       </div>
      </div>
 
