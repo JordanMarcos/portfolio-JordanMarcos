@@ -1,8 +1,9 @@
 // == Import styles
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import { BsGithub } from "react-icons/bs";
 import './styles.scss';
-import { style } from "@mui/system";
+
 
 //lightbox js vanilla create div and place on end of body
 const lightbox = document.createElement('div');
@@ -37,7 +38,7 @@ function handleClick2() {
 
 //function to show the lightbox img 3
 function handleClick3() {
-  const image = document.querySelectorAll('img')
+  // const image = document.querySelectorAll('img')
   const img = document.createElement('img')
 
   lightbox.classList.add('active')
@@ -71,6 +72,7 @@ const MyProjects = () => (
         className="carousel-container">
 
           <div 
+          className="image"
           key="1"
           onClick={handleClick}> 
             <img 
@@ -78,24 +80,99 @@ const MyProjects = () => (
             src="https://zupimages.net/up/22/17/j2y8.jpg"
             alt=""
              /> 
+
+             <div className="image-overlay">
+                <div className="image-title">
+                  Jeu snake | REACT
+                </div>
+                <p className="image-description"> 
+                  Lorem ipsum dolor sit amet consectetur 
+                  adipisicing elit. Pariatur aut omnis ut 
+                  ipsam fugit recusandae, aliquam temporibus 
+                  labore fuga quo, magnam id molestias totam 
+                  quaerat inventore, hic voluptatem repellendus
+                  possimus? 
+                </p>
+                <a 
+                className="image-logo-git" 
+                href="https://github.com/JordanMarcos" 
+                target="_blank"> 
+                  <BsGithub  
+                  title='lien github du projet' 
+                  size={'2rem'} 
+                  className="github" >
+                  </BsGithub>
+                </a>
+             </div>
           </div>
 
           <div
+          className='image'
           key="2"
           onClick={handleClick2}> 
             <img 
             className="img" 
             src="https://zupimages.net/up/22/17/onil.jpg" 
             alt="" /> 
+
+              <div className="image-overlay">
+                <div className="image-title">
+                  Blog | REACT
+                </div>
+                <p className="image-description"> 
+                  Lorem ipsum dolor sit amet consectetur 
+                  adipisicing elit. Pariatur aut omnis ut 
+                  ipsam fugit recusandae, aliquam temporibus 
+                  labore fuga quo, magnam id molestias totam 
+                  quaerat inventore, hic voluptatem repellendus
+                  possimus? 
+                </p>
+                <a 
+                className="image-logo-git" 
+                href="https://github.com/JordanMarcos" 
+                target="_blank"> 
+                  <BsGithub  
+                  title='lien github du projet' 
+                  size={'2rem'} 
+                  className="github" >
+                  </BsGithub>
+                </a>
+             </div>
           </div>
 
           <div 
+          className='image'
           key="3"
           onClick={handleClick3}> 
             <img 
             className="img" 
             src="https://zupimages.net/up/22/17/i92z.jpg" 
             alt="" /> 
+            
+           <div className="image-overlay">
+                <div className="image-title">
+                  Landing page | REACT
+                </div>
+                <p className="image-description"> 
+                  Lorem ipsum dolor sit amet consectetur 
+                  adipisicing elit. Pariatur aut omnis ut 
+                  ipsam fugit recusandae, aliquam temporibus 
+                  labore fuga quo, magnam id molestias totam 
+                  quaerat inventore, hic voluptatem repellendus
+                  possimus? 
+                </p>
+                <a 
+                className="image-logo-git" 
+                href="https://github.com/JordanMarcos" 
+                target="_blank"> 
+                  <BsGithub  
+                  title='lien github du projet' 
+                  size={'2rem'} 
+                  className="github" >
+                  </BsGithub>
+                </a>
+             </div>
+
           </div>
         </Carousel>
       </div>
