@@ -4,6 +4,7 @@ import { Button } from 'semantic-ui-react'
 
 // == Composant
 const WhoAmI = () => (
+<section id="whoAmI">
   <div className="whoami-container">
     <div className="whoami-container-items">
     <div className="whoami-title-container"> 
@@ -29,6 +30,7 @@ const WhoAmI = () => (
 
     </div>
   </div>
+</section>
 );
 
 // == Export

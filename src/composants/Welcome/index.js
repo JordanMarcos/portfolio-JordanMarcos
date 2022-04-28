@@ -3,6 +3,7 @@ import './styles.scss';
 
 // == Composant
 const Welcome = () => (
+<section id="home">
   <div className="welcome-container">
     
     <div className="welcome-container-items">
@@ -13,6 +14,7 @@ const Welcome = () => (
     <div className="welcome-post"> <p className="welcome-post-p">  Développeur web full stack </p> </div>
     
   </div>
+</section>
 );
 
 // == Export

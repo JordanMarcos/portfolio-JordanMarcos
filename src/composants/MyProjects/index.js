@@ -58,6 +58,7 @@ lightbox.addEventListener('click', e => {
 
 // == Composant
 const MyProjects = () => (
+<section id="myprojects">
   <div className="myprojects-container">
     <div className="myprojects-container-items"> 
     
@@ -194,6 +195,7 @@ const MyProjects = () => (
      </div>
 
  </div>
+</section>
 );
 
 // == Export

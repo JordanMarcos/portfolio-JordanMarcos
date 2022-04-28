@@ -3,8 +3,7 @@ import './styles.scss';
 import 'semantic-ui-css/semantic.min.css'
 
 // == Import React
-import React, {useState} from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // == Import composants
 import Header from 'src/composants/Header';
@@ -20,15 +19,21 @@ function App() {
   return (
     <>
     <Router>
+      
       <Header/>
-    </Router>
-    
       <Welcome/>
       <WhatIDo/>
       <WhoAmI/>
       <MyProjects/>
       <Footer/>
-      {/* <NotFound/> */}
+      
+      {/* Je n'arrive pas à gérer la 404, il ne comprend pas le "*" et en plus 
+      quand il m'affiche la 404 il l'affiche à la suite des composants */}
+      {/* <Routes>
+            <Route path='*' element={<NotFound/>}/>
+          </Routes>  */}
+
+    </Router>
    </>
   )
 }

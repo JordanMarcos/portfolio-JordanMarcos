@@ -3,6 +3,7 @@ import './styles.scss';
 
 // == Composant
 const WhatIDo = () => (
+<section id="whatIDo">
   <div className="whatido-container">
 
     <div className="whatido-container-title"> 
@@ -26,6 +27,7 @@ const WhatIDo = () => (
     
   
   </div>
+</section>
 );
 
 // == Export

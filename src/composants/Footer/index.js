@@ -5,7 +5,8 @@ import { BsGithub, BsLinkedin, BsFillCloudDownloadFill } from "react-icons/bs";
 
 // == Composant
 const Footer = () => (
-   
+
+<section id="footer">
   <div className="footer-container">
 
     <div className="footer-mail-container">
@@ -27,7 +28,7 @@ const Footer = () => (
      </div>
 
   </div>
-
+</section>
 );
 
 // == Export

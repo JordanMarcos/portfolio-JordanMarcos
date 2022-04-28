@@ -1,9 +1,10 @@
 // == Import styles
-import React, {useState} from 'react'
+import React, {useState} from 'react';
 import './styles.scss';
 import { MdOutlineMenu } from 'react-icons/md';
 import { MdClose } from 'react-icons/md';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 // == Composant
 function Header() {
@@ -13,6 +14,7 @@ function Header() {
 
   return (
     <div className="header-container">
+
     <h1 className="header-name"> <a className="header-name" href="https://www.linkedin.com/in/jordan-marcos/" target="_blank" title="Linkedin"> <span className="header-name-underline" >Jordan</span>  Marcos </a> </h1>
     
     <div className="header-container-menu">  
@@ -32,33 +34,34 @@ function Header() {
 
         <ul className='nav-menu-items'>
         <li className='nav-text'> 
-          <Link to="#">
+        
+          <HashLink to="#home" smooth>
             <span> Accueil </span>
-          </Link>
+          </HashLink>
         </li>
 
         <li className='nav-text'> 
-          <Link to="#">
+          <HashLink to="#whatIDo" smooth>
             <span> Ce que je fais  </span>
-          </Link>
+          </HashLink>
         </li>
 
         <li className='nav-text'> 
-          <Link to="#">
+          <HashLink to="#whoAmI" smooth>
             <span> Qui je suis </span>
-          </Link>
+          </HashLink>
         </li>
 
         <li className='nav-text'> 
-          <Link to="#">
+          <HashLink to="#myprojects" smooth>
             <span> Mes projets  </span>
-          </Link>
+          </HashLink>
         </li>
 
         <li className='nav-text'> 
-          <Link to="#">
+          <HashLink to="#footer" smooth>
             <span> Me contacter </span>
-          </Link>
+          </HashLink>
         </li>
 
       </ul>
