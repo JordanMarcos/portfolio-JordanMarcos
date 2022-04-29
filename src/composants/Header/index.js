@@ -15,7 +15,7 @@ function Header() {
   return (
     <div className="header-container">
 
-    <h1 className="header-name"> <a className="header-name" href="https://www.linkedin.com/in/jordan-marcos/" target="_blank" title="Linkedin"> <span className="header-name-underline" >Jordan</span>  Marcos </a> </h1>
+    <h1 className="header-name"> <a className="header-name" href="https://www.linkedin.com/in/jordan-marcos/" target="_blank" title="Linkedin"> <span className="header-name-underline" >Jordan Marcos</span></a> </h1>
     
     <div className="header-container-menu">  
       <Link to="#" className="menu-bars">

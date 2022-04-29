@@ -2,34 +2,62 @@
   display: flex;
   width: 100%;
   background-color: black;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  // padding-left: 2rem;
+  // padding-right: 2rem;
 }
 
 .header-name{
-  color: #565656;
+  color: #ebebeb;
   font-size: 2.3rem;
   font-weight: bolder ;
   font-family:'Montserrat', sans-serif;
-  padding-top: 1rem;
-  padding-left: 0.6rem;
+  padding-top: 2rem;
+  padding-left: 1.5rem;
   padding-bottom: 1rem;
   }
 
 .header-name:hover {
   color: white;
   font-size: 2.5rem;
+  transition-duration: 0.3s;
 }
 
 
 .header-name-underline{
-  border-bottom: #565656 3px solid;
+  display: inline-block;
+  position: relative;
+}
+
+.header-name-underline::before{
+content: "";
+position: absolute;
+left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0.2rem;
+  background-color: #ebebeb;
+  transition: width 0.25s ease-out;
+}
+
+.header-name-underline :hover{
+  animation: underline ;
+}
+
+.header-name-underline:hover::before {
+  width: 100%;
+}
+
+@keyframes underline {
+
+  to{
+    right: 100%;
+  }
 }
 
 .header-container-menu{
   margin-left: auto ;
-  padding-right: 1rem;
-  padding-top: 1rem;
+  padding-top: 2rem;
+  padding-right: 1.5rem;
   background-color: black;
   display: flex;
 }
@@ -78,6 +106,7 @@
 .nav-text:hover{
   color: white;
   font-size: 0.9rem;
+  transition-duration: 0.3s;
 }
 
 .navbar-toggle{
@@ -90,18 +119,20 @@
 }
 
 .cross{
-  color: #565656;
+  color: #ebebeb;
 }
 
 .cross:hover{
-  color: white;
+  transform: scale(1.2);
+  transition-duration: 0.3s;
 }
 
 .bars{
   size: 3rem;
-  color: #565656;
+  color: #ebebeb;
 }
 
 .bars:hover{
-color: white;
+  transform: scale(1.2);
+  transition-duration: 0.3s;
 }

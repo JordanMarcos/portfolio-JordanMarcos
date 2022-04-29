@@ -7,10 +7,9 @@
 
 .whoami-container-items{
 // border: white solid 2px;
-margin-top: 3.5rem;
+margin-top: 3rem;
 margin-left: 3rem;
 margin-right: 3rem;
-margin-bottom: 1rem;
 display: flex;
 flex-direction: column;
 }
@@ -22,7 +21,7 @@ flex-direction: column;
 }
 
 .whoami-title{
-  color: #565656;
+  color: #ebebebd2;
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   // margin-bottom: 2rem;
@@ -48,7 +47,7 @@ flex-direction: column;
   padding:0.5rem;
   font-size: 1.1rem;
   font-family: 'Mulish', sans-serif;
-  color: #A1A1A1;
+  color: #ebebebd2;
 }
 
 .whoami-text-container{
@@ -70,7 +69,7 @@ flex-direction: column;
 .whoami-text{
   margin: 2rem;
   font-family: 'Mulish', sans-serif;
-  color: #A1A1A1;
+  color: #ebebebd2;
   font-size: 1.1rem;
   line-height: 1.5rem;
   letter-spacing: 0.015rem;
