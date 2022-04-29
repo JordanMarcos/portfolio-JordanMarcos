@@ -2,7 +2,7 @@
   border: black solid 1px ;
   background-color: black;
   color: white;
-  height: 40rem;
+  height: 43.2rem;
 }
 
 .whoami-container-items{
@@ -58,7 +58,7 @@ flex-direction: column;
   border-radius: 20px;
   border:1px solid rgba(110, 110, 110, 0.18);
   box-shadow:-3px 5px 26px 13px rgba(79,79,79,0.20);
-  height: 20.2rem;
+  height: 24.2rem;
   width: 50rem;
   margin-left: auto;
   margin-right: auto;
@@ -73,6 +73,10 @@ flex-direction: column;
   font-size: 1.1rem;
   line-height: 1.5rem;
   letter-spacing: 0.015rem;
+}
+
+.br{
+  height: 1rem;
 }
 
 .whoami-button-container{

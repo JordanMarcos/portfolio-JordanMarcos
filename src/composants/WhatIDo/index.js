@@ -11,7 +11,12 @@ const WhatIDo = () => (
     </div>
 
     <div className="whatido-container-text">
-      <p className="whatido-text"> En tant qu’étudiant en conception et développement d’applications web, je dispose de connaissances tant en frontend qu’en backend. En effet, durant mes études, j’ai découvert différents outils et langages de développement tels que React, Typescript, Node.js, ou encore la méthode Merise. J’ai récemment acquis un grand intérêt pour la 3D grâce à Three.js </p>
+      <p className="whatido-text"> 
+      En tant qu’étudiant en conception et développement d’applications web, je dispose de connaissances
+      tant en frontend qu’en backend. En effet, durant mes études, j’ai découvert différents outils et langages 
+      de programmation tels que Typescript, Jest, Sass, ou encore comment utiliser des API.
+      J’ai récemment acquis un grand intérêt pour la 3D grâce à Three.js.
+      </p>
     </div>
     
     <div className="whatido-container-logos">
