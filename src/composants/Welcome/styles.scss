@@ -23,9 +23,17 @@
 //  border: red solid 2px;
   height: 16.3rem;
   width: 16.2rem;
+  border-radius: 80px;
   display: block;
-  box-shadow:0px -1px 13px 6px rgba(117,117,117,0.46);
+  // box-shadow:0px -1px 13px 6px rgba(117,117,117,0.46);
+  filter: drop-shadow(0 0 0.75rem rgba(255, 255, 255, 0.486));
 }
+
+.welcome-image-container:hover{
+filter: drop-shadow(0 0 1rem rgba(255, 255, 255, 0.486));
+transition-duration: 0.3s;
+}
+
 .welcome-text{
   // border: orchid solid 2px;
   display: flex;
@@ -83,7 +91,9 @@
 
 .welcome-post{
   // border: peru solid 2px;
+ 
   border: 1px solid rgba(43, 43, 43, 0.50);
+  border-radius: 5px;
   background: rgba(43, 43, 43, 0.59);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
@@ -92,7 +102,7 @@
   height: 2.3rem;
   text-align: center;
   padding-top: 0.2rem;
-  margin-top: 0.4rem;
+  margin-top: 2rem;
   margin-left: 34.3rem;
 }
 
@@ -119,6 +129,7 @@ letter-spacing: 0.03rem;
 .pic-of-me{
 width: 100%;
 height: 100% ;
+border-radius: 80px;
 }
 
 @keyframes typewriter {

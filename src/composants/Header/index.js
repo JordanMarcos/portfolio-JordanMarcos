@@ -5,6 +5,7 @@ import { MdOutlineMenu } from 'react-icons/md';
 import { MdClose } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
+import 'animate.css';
 
 // == Composant
 function Header() {
@@ -13,9 +14,10 @@ function Header() {
   const showSidebar = () => setSidebar(!sidebar);
 
   return (
+    <section id="home">
     <div className="header-container">
 
-    <h1 className="header-name"> <a className="header-name" href="https://www.linkedin.com/in/jordan-marcos/" target="_blank" title="Linkedin"> <span className="header-name-underline" >Jordan Marcos</span></a> </h1>
+    <h1 className="header-name animate__animated animate__jackInTheBox"> <a className="header-name" href="https://www.linkedin.com/in/jordan-marcos/" target="_blank" title="Linkedin"> <span className="header-name-underline" >Jordan Marcos</span></a> </h1>
     
     <div className="header-container-menu">  
       <Link to="#" className="menu-bars">
@@ -33,8 +35,8 @@ function Header() {
         </ul>
 
         <ul className='nav-menu-items'>
+          
         <li className='nav-text'> 
-        
           <HashLink to="#home" smooth>
             <span> Accueil </span>
           </HashLink>
@@ -68,6 +70,7 @@ function Header() {
     </nav>
     
   </div>
+  </section>
   )
  
 };

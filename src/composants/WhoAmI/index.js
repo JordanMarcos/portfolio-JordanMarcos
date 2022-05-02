@@ -24,7 +24,7 @@ const WhoAmI = () => (
       
       <p className="whoami-text">
       En effet, avant cela, j’étudiais un tout autre univers, celui du commerce. 
-      Cela m’a permis d’avoir un savoir-faire avec la clientèle, d'aiguiser mes connaissances en marketing, 
+      Cela m’a permis d'acquérir un savoir-faire avec la clientèle, d'aiguiser mes connaissances en marketing, 
       et enfin, de développer mon sens de l'entrepreneuriat.
       </p>
 
