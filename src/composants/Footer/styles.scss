@@ -62,3 +62,9 @@
   // border: red 1px solid;
   padding-top: 0.3rem;
 }
+
+@media screen and (min-width : 0px) and (max-width : 550px) {
+  .footer-mail{
+    font-size: 1em ;
+  }
+}

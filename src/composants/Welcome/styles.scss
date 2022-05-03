@@ -157,29 +157,37 @@ border-radius: 80px;
 
 @media screen and (min-width : 0px) and (max-width : 550px) {
   .welcome-container{
-    height: 40em;
+    height: 35em;
     display: flex;
     flex-direction: column;
   }
 
   .welcome-container-items{
-    margin-top: 5em;
-    width: 40rem;
+    margin-top: 2.3em;
+    width: 100%;
     flex-direction: column;
   }
 
   .welcome-post{
-    width: 18em;
+    width: 80%;
     height: auto;
-    // padding-top: 0.2em;
-   margin: auto;
+    margin: 5% auto;
+    margin-top: 10%;
   }
 
   .welcome-image-container{
-    margin-left: auto;
+    margin: 3% auto;
+    z-index: 0;
   }
   .welcome-text{
-    border:red solid 2px;
+    // border:red solid 2px;
     width: 100%;
+    height: 5em;
   }
+  .welcome-text-h1{
+   font-size: 1.8em;
+  }
+  .welcome-text-p{
+    font-size: 1.1em;
+   }
 }

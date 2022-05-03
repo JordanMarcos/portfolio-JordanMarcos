@@ -68,7 +68,7 @@ const MyProjects = () => (
 
       <div className="myprojects-container-slider">
 
-        {/* Text + loader informant que mes projets sont en cours de développement */}
+        {/* Text + loader en bas informant que mes projets sont en cours de développement */}
       <div className="container-no-projects">
         <div>
           <p className="myprojects-no-projects-text">En cours de développement</p>
