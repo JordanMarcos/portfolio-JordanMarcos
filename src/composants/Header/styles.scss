@@ -213,3 +213,100 @@ border: 1px solid rgba(38, 38, 38, 0.3);
   left: 68%;
   }
 }
+
+
+/* Phablets , Tablettes , Desktop */
+@media screen and (min-width : 551px) and (max-width : 561px) { 
+
+  .nav-menu{
+    left: 56%;
+    z-index: 1;
+    }
+
+ }
+
+ /* Phablets , Tablettes , Desktop */
+@media screen and (min-width : 562px) and (max-width : 585px) { 
+
+  .nav-menu{
+    left: 58%;
+    z-index: 1;
+    }
+
+ }
+
+  /* Phablets , Tablettes , Desktop */
+@media screen and (min-width : 585px) and (max-width : 605px) { 
+
+  .nav-menu{
+    left: 59%;
+    z-index: 1;
+    }
+
+ }
+
+
+  /* Phablets , Tablettes , Desktop */
+@media screen and (min-width : 606px) and (max-width : 645px) { 
+
+  .nav-menu{
+    left: 62%;
+    z-index: 1;
+    }
+
+ }
+
+
+ @media screen and (min-width : 646px) and (max-width : 682px) { 
+
+  .nav-menu{
+    left: 64%;
+    z-index: 1;
+    }
+
+ }
+
+ @media screen and (min-width : 683px) and (max-width : 719px) { 
+
+  .nav-menu{
+    left: 66%;
+    z-index: 1;
+    }
+
+ }
+
+ @media screen and (min-width : 720px) and (max-width : 766px) { 
+
+  .nav-menu{
+    left: 68%;
+    z-index: 1;
+    }
+
+ }
+
+ @media screen and (min-width : 767px) and (max-width : 840px) { 
+
+  .nav-menu{
+    left: 71%;
+    z-index: 1;
+    }
+
+ }
+
+ @media screen and (min-width : 841px) and (max-width : 900px) { 
+
+  .nav-menu{
+    left: 73%;
+    z-index: 1;
+    }
+
+ }
+
+ @media screen and (min-width : 900px) and (max-width : 1000px) { 
+
+  .nav-menu{
+    left: 76%;
+    z-index: 1;
+    }
+
+ }

@@ -133,3 +133,35 @@ height: 41.5rem;
     }
     
 }
+
+/* Responsive Phablets , Tablettes  */
+@media screen and (min-width : 551px) and (max-width : 1000px) { 
+
+  .whatido-container{
+    height: 120em;
+    }
+    
+    .whatido-title{
+      font-size: 1.8em;
+    }
+    
+    .whatido-container-text{
+      width: 90%;
+      max-width: 780px;
+    }
+    
+    .whatido-text{
+      color: #565656;
+      font-size: 1.1em;
+      letter-spacing: 0.01em;
+      line-height: 1.4em;
+    }
+    
+    .whatido-container-logos{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 15em;
+    }
+
+}

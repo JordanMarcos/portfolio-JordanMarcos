@@ -173,6 +173,7 @@ border-radius: 80px;
     height: auto;
     margin: 5% auto;
     margin-top: 10%;
+    padding-bottom: 0.5em;
   }
 
   .welcome-image-container{
@@ -190,4 +191,44 @@ border-radius: 80px;
   .welcome-text-p{
     font-size: 1.1em;
    }
+}
+
+
+
+/* Responsive Phablets , Tablettes  */
+@media screen and (min-width : 551px) and (max-width : 1000px) { 
+
+  .welcome-container{
+    height: 40em;
+  }
+
+  .welcome-container-items{
+    margin-top: 2em;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .welcome-post{
+    width: 80%;
+    height: auto;
+    margin: 5% auto;
+    padding-bottom: 0.5em;
+  }
+
+  .welcome-image-container{
+    margin: 3% auto;
+    z-index: 0;
+  }
+  .welcome-text{
+    // border:red solid 2px;
+    width: 100%;
+    height: 5em;
+  }
+  .welcome-text-h1{
+   font-size: 1.8em;
+  }
+  .welcome-text-p{
+    font-size: 1.1em;
+   }
+  
 }
