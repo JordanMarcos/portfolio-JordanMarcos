@@ -310,3 +310,30 @@ border: 1px solid rgba(38, 38, 38, 0.3);
     }
 
  }
+
+
+ /* Desktop and more */
+@media (min-width: 1001px) { 
+
+.nav-menu{
+
+  left: 80%;
+}
+
+}
+
+
+@media screen and (min-width:1215px) {
+  
+  .nav-menu{
+      left: 83%;
+    }
+}
+
+
+@media screen and (min-width:1428px) {
+  
+  .nav-menu{
+      left: 85%;
+    }
+}

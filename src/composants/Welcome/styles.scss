@@ -103,7 +103,7 @@ transition-duration: 0.3s;
   text-align: center;
   padding-top: 0.2rem;
   margin-top: 2rem;
-  margin-left: 34.3rem;
+
 }
 
 .welcome-post:hover{
@@ -230,5 +230,28 @@ border-radius: 80px;
   .welcome-text-p{
     font-size: 1.1em;
    }
+  
+}
+
+
+/* Desktop and more */
+@media (min-width: 1001px) { 
+  .welcome-post{
+    // border: peru solid 2px;
+    align-self: center;
+  }
+  
+  .welcome-post:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+    transition-duration: 350ms;
+  }
+  
+  .welcome-post-p{
+  color: #ebebeb;
+  font-family: 'Mulish', sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.03rem;
+  }
   
 }
