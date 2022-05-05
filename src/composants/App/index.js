@@ -21,17 +21,14 @@ function App() {
     <Router>
       
       <Header/>
-      <Welcome/>
+      <Routes>
+        <Route path="/" element={<Welcome/>} />
+        <Route path='*' element={<NotFound/>}/>
+      </Routes> 
       <WhatIDo/>
       <WhoAmI/>
       <MyProjects/>
       <Footer/>
-      
-      {/* Je n'arrive pas à gérer la 404, il ne comprend pas le "*" et en plus 
-      quand il m'affiche la 404 il l'affiche à la suite des composants */}
-      {/* <Routes>
-            <Route path='*' element={<NotFound/>}/>
-          </Routes>  */}
 
     </Router>
    </>

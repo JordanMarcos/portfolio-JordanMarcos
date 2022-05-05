@@ -1,0 +1,47 @@
+.container{
+  height:100vh;
+  background-color: black;
+}
+
+.container-titles{
+  display: flex;
+  flex-direction: column;
+  padding: 5em;
+  width: 80%;
+  margin: auto;
+}
+
+h1{
+  color: white;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 2em;
+  align-self: center;
+}
+
+.h1{
+  text-align: center;
+}
+
+.text{
+  color: white;
+  font-family: 'Mulish', sans-serif;
+  font-size: 1.1em;
+  &:hover{
+    font-size: 1.2em;
+    font-weight: 500;
+    transition-duration: 500ms;
+  }
+}
+
+.container-text{
+border: grey 3px solid;
+border-radius: 50px;
+margin-top: 2em;
+align-self: center;
+padding: 1em;
+  &:hover{
+    background-color: grey;
+    transform: scale(1.05);
+    transition-duration: 500ms;
+  }
+}
