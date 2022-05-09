@@ -1,7 +1,7 @@
 // == Import styles
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-import { BsGithub } from "react-icons/bs";
+import { BsGithub, BsArrowUpCircleFill } from "react-icons/bs";
 import './styles.scss';
 
 
@@ -109,16 +109,28 @@ const MyProjects = () => (
                   quaerat inventore, hic voluptatem repellendus
                   possimus? 
                 </p>
-                <a 
-                className="image-logo-git" 
-                href="https://github.com/JordanMarcos" 
-                target="_blank"> 
-                  <BsGithub  
-                  title='lien github du projet' 
-                  size={'2rem'} 
-                  className="github" >
-                  </BsGithub>
-                </a>
+
+                <div className="container-icons">
+                  <a 
+                  href="https://github.com/JordanMarcos" 
+                  target="_blank"> 
+                    <BsGithub  
+                    title='vers github' 
+                    size={'2rem'} 
+                    className="github" >
+                    </BsGithub>
+                  </a>
+
+                  <a href="https://www.google.fr/"
+                  target="_blank">
+                      <BsArrowUpCircleFill
+                      title='vers le projet' 
+                      size={'2rem'} 
+                      className="github">
+                      </BsArrowUpCircleFill>
+                  </a>
+                </div>
+
              </div>
           </div>
 
@@ -143,16 +155,28 @@ const MyProjects = () => (
                   quaerat inventore, hic voluptatem repellendus
                   possimus? 
                 </p>
-                <a 
-                className="image-logo-git" 
-                href="https://github.com/JordanMarcos" 
-                target="_blank"> 
-                  <BsGithub  
-                  title='lien github du projet' 
-                  size={'2rem'} 
-                  className="github" >
-                  </BsGithub>
-                </a>
+                
+                <div className="container-icons">
+                  <a 
+                  href="https://github.com/JordanMarcos" 
+                  target="_blank"> 
+                    <BsGithub  
+                    title='vers github' 
+                    size={'2rem'} 
+                    className="github" >
+                    </BsGithub>
+                  </a>
+
+                  <a href="https://www.google.fr/"
+                  target="_blank">
+                      <BsArrowUpCircleFill
+                      title='vers le projet' 
+                      size={'2rem'} 
+                      className="github">
+                      </BsArrowUpCircleFill>
+                  </a>
+                </div>
+
              </div>
           </div>
 
@@ -177,16 +201,26 @@ const MyProjects = () => (
                   quaerat inventore, hic voluptatem repellendus
                   possimus? 
                 </p>
-                <a 
-                className="image-logo-git" 
-                href="https://github.com/JordanMarcos" 
-                target="_blank"> 
-                  <BsGithub  
-                  title='lien github du projet' 
-                  size={'2rem'} 
-                  className="github" >
-                  </BsGithub>
-                </a>
+                <div className="container-icons">
+                  <a 
+                  href="https://github.com/JordanMarcos" 
+                  target="_blank"> 
+                    <BsGithub  
+                    title='vers github' 
+                    size={'2rem'} 
+                    className="github" >
+                    </BsGithub>
+                  </a>
+
+                  <a href="https://www.google.fr/"
+                  target="_blank">
+                      <BsArrowUpCircleFill
+                      title='vers le projet' 
+                      size={'2rem'} 
+                      className="github">
+                      </BsArrowUpCircleFill>
+                  </a>
+                </div>
              </div>
 
           </div>
