@@ -38,7 +38,7 @@ const WhoAmI = () => (
     </div>
 
     <div className="whoami-button-container">  
-        <Button basic inverted ><a className="button" href="https://docdro.id/tjWHTyv" target="_blank">Télécharger mon CV</a></Button>
+        <Button basic inverted ><a className="button" href="https://docdro.id/GpYvkFQ" target="_blank">Télécharger mon CV</a></Button>
     </div>
 
     </div>
